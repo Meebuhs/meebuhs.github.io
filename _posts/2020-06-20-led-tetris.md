@@ -1,11 +1,11 @@
 ---
 layout: post
 title: LED Tetris
-summary: A self-playing tetris AI displayed on an array of LED matrices.
+description: A self-playing tetris AI displayed on an array of LED matrices.
 category: completed
 permalink: /projects/led-tetris
 cover-image: /assets/images/led-tetris/cover.jpg
-top-image: /assets/images/led-tetris/demo.gif
+image: /assets/images/led-tetris/demo.gif
 mathjax: true
 ---
 
