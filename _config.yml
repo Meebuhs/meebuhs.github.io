@@ -9,3 +9,5 @@ lang: en-AU
 
 # Build settings
 remote_theme: meebuhs/arco
+plugins:
+  - jekyll-sitemap
