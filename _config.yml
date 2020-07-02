@@ -6,6 +6,7 @@ url: https://meebuhs.github.io
 github_url: https://github.com/meebuhs
 author: Alex Sharpe
 lang: en-AU
+logo: /favicon.png
 
 # Build settings
 remote_theme: meebuhs/arco
