@@ -6,6 +6,7 @@ category: completed
 permalink: /projects/splitty-boi
 cover-image: /assets/images/splitty-boi/pcb-final.png
 image: /assets/images/splitty-boi/pcb-final.png
+tags: [kicad, pcb, qmk, split keyboard]
 ---
 
 Given the amount of my time I spend using my keyboard, whether it's writing code, playing games, chatting with friends or otherwise bouncing around the internet, the idea of a more ergonomic keyboard was appealing. I purchased a Lily58 Pro kit to assemble and after about a month of it being stuck in the US, I was getting impatient and decided it would be more fun to design my own keyboard anyway. So I did.

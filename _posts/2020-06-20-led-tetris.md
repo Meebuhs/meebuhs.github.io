@@ -4,9 +4,11 @@ title: LED Tetris
 description: A self-playing tetris AI displayed on an array of LED matrices.
 category: completed
 permalink: /projects/led-tetris
+source-url: https://github.com/meebuhs/led-tetris
 cover-image: /assets/images/led-tetris/cover.jpg
 image: /assets/images/led-tetris/demo.gif
 mathjax: true
+tags: [python, ai, heuristic, raspberry-pi, led-matrix]
 ---
 
 This project started as a uni project for my intro to computer systems course in 2016. We were given the skeleton for a simple four button game of tetris written in C and were tasked with completing the code to have the game playable on an ATmega324A microcontroller, four push buttons, two 8x8 led matrices and a 2-digit seven segment display.
