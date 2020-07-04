@@ -38,7 +38,9 @@ The heuristic considers 6 metrics.
 
 #### Complete Lines
 
-<img src="/assets/images/led-tetris/complete-lines.png" width="400px" />
+<a href="/assets/images/led-tetris/complete-lines.png">
+    <img src="/assets/images/blank.png" alt="Tetris heuristic complete lines" data-echo="/assets/images/led-tetris/complete-lines.png" width="400px" />
+</a>
 
 This is the most obvious metric and is simply the number of lines which would be completed by a given move. 
 As this is the main goal of tetris, the heuristic tries to maximise this value.
@@ -47,7 +49,9 @@ $$ m_1 = \sum^n{r} \; \forall \; r = (1 << \text{board width}) - 1 $$
 
 #### Created Empty Spaces
 
-<img src="/assets/images/led-tetris/created-empty-spaces.png" width="400px" />
+<a href="/assets/images/led-tetris/created-empty-spaces.png">
+    <img src="/assets/images/blank.png" alt="Tetris heuristic created empty spaces" data-echo="/assets/images/led-tetris/created-empty-spaces.png" width="400px" />
+</a>
 
 An empty space is a void in the board which prevents a line from being cleared. This metric counts empty spaces which occur within, or one row below, the bounding box of a tetromino, which also have an occupied space above them. By minimising this value, the heuristic discourages moves which create new empty spaces.
 
@@ -59,7 +63,9 @@ $$
 
 #### Nearby Empty Spaces
 
-<img src="/assets/images/led-tetris/nearby-empty-spaces.png" width="400px" />
+<a href="/assets/images/led-tetris/nearby-empty-spaces.png">
+    <img src="/assets/images/blank.png" alt="Tetris heuristic nearby empty spaces" data-echo="/assets/images/led-tetris/nearby-empty-spaces.png" width="400px" />
+</a>
 
 This metric is similar to created empty spaces, but instead discourages tetrominoes from being placed in the same column as an empty space. The further an empty space is buried in the board, the harder it becomes to clear that line, and as such the heuristic minimises this value.
 
@@ -69,7 +75,9 @@ $$ m_3 = \sum^n{pos_{x, y}} \text{ for } pos_{x, y} \; \in \; \{pos_{x, y} \; | 
 
 #### Average Column Height and Height Variation
 
-<img src="/assets/images/led-tetris/line-height.png" width="400px" />
+<a href="/assets/images/led-tetris/line-height.png">
+    <img src="/assets/images/blank.png" alt="Tetris heuristic line height and height variation" data-echo="/assets/images/led-tetris/line-height.png" width="400px" />
+</a>
 
 The game of tetris ends when a new tetromino can no longer be placed without colliding with the board. The heuristic discourages this by minimising the average height of the board and by promoting an even distribution of tetrominoes across all columns. The variation is measured by summing the difference in height of each pair of adjacent columns.
 
@@ -103,7 +111,9 @@ See the source code on [github](https://github.com/meebuhs/led-tetris)
 
 ## Hardware
 
-<img src="/assets/images/led-tetris/hardware.png" width="70%" />
+<a href="/assets/images/led-tetris/hardware.png">
+    <img src="/assets/images/blank.png" alt="Tetris led matrix raspberry pi setup" data-echo="/assets/images/led-tetris/hardware.png" />
+</a>
 
 This build uses 6 32x32 P6 SMD3528 LED matrices hooked up to a raspberry pi and an external power supply. 
 
