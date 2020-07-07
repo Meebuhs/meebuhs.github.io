@@ -4,8 +4,9 @@ title: Splitty Boi
 description: A split, ortholinear 3x6 keyboard with an aggressive columnar stagger and 6 thumb keys.
 category: completed
 permalink: /projects/splitty-boi
-cover-image: /assets/images/splitty-boi/pcb-final.png
-image: /assets/images/splitty-boi/pcb-final.png
+images:
+    cover: /assets/images/splitty-boi/pcb-final.png
+    top: /assets/images/splitty-boi/pcb-final.png
 tags: [kicad, pcb, qmk, split keyboard]
 ---
 

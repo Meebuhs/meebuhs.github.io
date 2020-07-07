@@ -4,9 +4,11 @@ title: LED Tetris
 description: A self-playing tetris AI displayed on an array of LED matrices.
 category: completed
 permalink: /projects/led-tetris
-source-url: https://github.com/meebuhs/led-tetris
-cover-image: /assets/images/led-tetris/cover.jpg
-image: /assets/images/led-tetris/demo.gif
+urls:
+    source: https://github.com/meebuhs/led-tetris
+images:
+    cover: /assets/images/led-tetris/cover.jpg
+    top: /assets/images/led-tetris/demo.gif
 mathjax: true
 tags: [python, ai, heuristic, raspberry-pi, led-matrix]
 ---
