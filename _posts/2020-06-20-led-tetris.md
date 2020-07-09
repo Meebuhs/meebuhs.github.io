@@ -28,7 +28,7 @@ There are two threads running concurrently, one which controls the display while
 
 ### Display thread
 
-The display data is stored as an array of RGB tuples, each representing a pixel on the matrix. A single pixel at position `(x, y)` can be set by changing the value of `board_display[Constants.BOARD_WIDTH * y + x]`. These are set as the position of theh tetrominoes change and the array is then converted to an image and pushed to the matrices to be displayed.
+The display data is stored as an array of RGB tuples, each representing a pixel on the matrix. A single pixel at position `(x, y)` can be set by changing the value of `board_display[BOARD_WIDTH * y + x]`. These are set as the position of theh tetrominoes change and the array is then converted to an image and pushed to the matrices to be displayed.
 
 ### Heuristic thread
 
