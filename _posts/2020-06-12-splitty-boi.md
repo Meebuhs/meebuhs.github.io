@@ -56,7 +56,7 @@ I made a quick note to change the silkscreen for the hotswap sockets and I kept 
 I wasn't entirely satisfied with the columnar stagger and the thumb key placement, especially the two outer keys which matched the stagger of the columns. I plotted the key placements and started taking measurements for where I felt everything should be.
 
 <a href="/assets/images/splitty-boi/thumb-placement.gif">
-    <img src="/assets/images/blank.png" alt="Splitty boi thumb arc placement" data-echo="/assets/images/splitty-boi/thumb-placement.gif" width="400px" />
+    <img src="/assets/images/blank.png" alt="Splitty boi thumb arc placement" data-echo="/assets/images/splitty-boi/thumb-placement.gif" style="max-width: 400px" />
 </a>
 
 The result of my experimentation here was that I moved the thumb cluster down and inward toward the hand, allowing the thumb and fingers to remain relaxed while on the home row. I also adjusted the staggers, bringing the pinky columns further down as well as moving the extra key below the Pro Micro down to be hit by the thumb instead of the index.

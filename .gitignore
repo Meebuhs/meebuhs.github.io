@@ -40,5 +40,5 @@ _site/
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll,git,linux
 
-# Template used to create tetris graphics
-assets/images/led-tetris/template.psd
+# Templates used to create graphics
+template.psd
