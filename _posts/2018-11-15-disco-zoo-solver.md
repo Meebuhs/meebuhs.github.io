@@ -18,7 +18,7 @@ mathjax: true
 
 ## The Problem
 
-<a href="/assets/images/disco-zoo-solver/game-screenshot.jpg">
+<a class="clickable-image" href="/assets/images/disco-zoo-solver/game-screenshot.jpg">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - game screenshot" data-echo="/assets/images/disco-zoo-solver/game-screenshot.jpg" />
 </a>
 
@@ -26,7 +26,7 @@ The game board is a 5x5 grid of tiles hiding 1-3 animals behind them. The player
 
 ## The Solution
 
-<a href="/assets/images/disco-zoo-solver/candidates.png">
+<a class="clickable-image" href="/assets/images/disco-zoo-solver/candidates.png">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - candidate generation" data-echo="/assets/images/disco-zoo-solver/candidates.png" style="max-width: 400px" />
 </a>
 
@@ -43,7 +43,7 @@ When the user inputs the contents of a cell, the solver is able to finalise it a
 
 If the contents of a cell are known to be empty, then no animal's candidates can occupy that cell. Similarly, if a cell is known to contain an animal, then no other animal's candidate can occupy that cell.
 
-<a href="/assets/images/disco-zoo-solver/occupied-cell.png">
+<a class="clickable-image" href="/assets/images/disco-zoo-solver/occupied-cell.png">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - occupied cell" data-echo="/assets/images/disco-zoo-solver/occupied-cell.png" style="max-width: 400px" />
 </a>
 
@@ -53,7 +53,7 @@ If the contents of a cell are known to be empty, then no animal's candidates can
 
 If a cell is occupied by all possible candidates for an animal, then that cell must be occupied by that animal.
 
-<a href="/assets/images/disco-zoo-solver/known-cell.png">
+<a class="clickable-image" href="/assets/images/disco-zoo-solver/known-cell.png">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - known cell" data-echo="/assets/images/disco-zoo-solver/known-cell.png" style="max-width: 400px" />
 </a>
 
@@ -63,7 +63,7 @@ If animal 2 only had three remaining candidates and they all contained cell `(2 
 
 If there is only one remaining candidate for an animal, then it must occupy those tiles.
 
-<a href="/assets/images/disco-zoo-solver/known-candidate.png">
+<a class="clickable-image" href="/assets/images/disco-zoo-solver/known-candidate.png">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - known candidate" data-echo="/assets/images/disco-zoo-solver/known-candidate.png" style="max-width: 400px" />
 </a>
 

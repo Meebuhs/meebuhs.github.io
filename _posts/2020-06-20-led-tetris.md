@@ -40,7 +40,7 @@ The heuristic considers 6 metrics.
 
 #### Complete Lines
 
-<a href="/assets/images/led-tetris/complete-lines.png">
+<a class="clickable-image" href="/assets/images/led-tetris/complete-lines.png">
     <img src="/assets/images/blank.png" alt="Tetris heuristic complete lines" data-echo="/assets/images/led-tetris/complete-lines.png" style="max-width: 400px"/>
 </a>
 
@@ -51,7 +51,7 @@ $$ m_1 = \sum^n{r} \; \forall \; r = (1 << \text{board width}) - 1 $$
 
 #### Created Empty Spaces
 
-<a href="/assets/images/led-tetris/created-empty-spaces.png">
+<a class="clickable-image" href="/assets/images/led-tetris/created-empty-spaces.png">
     <img src="/assets/images/blank.png" alt="Tetris heuristic created empty spaces" data-echo="/assets/images/led-tetris/created-empty-spaces.png" style="max-width: 400px"/>
 </a>
 
@@ -65,7 +65,7 @@ $$
 
 #### Nearby Empty Spaces
 
-<a href="/assets/images/led-tetris/nearby-empty-spaces.png">
+<a class="clickable-image" href="/assets/images/led-tetris/nearby-empty-spaces.png">
     <img src="/assets/images/blank.png" alt="Tetris heuristic nearby empty spaces" data-echo="/assets/images/led-tetris/nearby-empty-spaces.png" style="max-width: 400px"/>
 </a>
 
@@ -77,7 +77,7 @@ $$ m_3 = \sum^n{pos_{x, y}} \text{ for } pos_{x, y} \; \in \; \{pos_{x, y} \; | 
 
 #### Average Column Height and Height Variation
 
-<a href="/assets/images/led-tetris/line-height.png">
+<a class="clickable-image" href="/assets/images/led-tetris/line-height.png">
     <img src="/assets/images/blank.png" alt="Tetris heuristic line height and height variation" data-echo="/assets/images/led-tetris/line-height.png" style="max-width: 400px"/>
 </a>
 
@@ -113,7 +113,7 @@ See the source code on [github](https://github.com/meebuhs/led-tetris)
 
 ## Hardware
 
-<a href="/assets/images/led-tetris/hardware.png">
+<a class="clickable-image" href="/assets/images/led-tetris/hardware.png">
     <img src="/assets/images/blank.png" alt="Tetris led matrix raspberry pi setup" data-echo="/assets/images/led-tetris/hardware.png" />
 </a>
 

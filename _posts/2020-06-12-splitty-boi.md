@@ -31,7 +31,7 @@ I decided to test it by removing the number row from my current keyboard and [pu
 
 The first step was to set up the schematic. Using the Lily58 as a starting point, I added an extra switch to the bottom row of the matrix as an extra thumb key and I added the LED matrix. 
 
-<a href="/assets/images/splitty-boi/initial-schematic.png">
+<a class="clickable-image" href="/assets/images/splitty-boi/initial-schematic.png">
     <img src="/assets/images/blank.png" alt="Splitty boi initial schematic" data-echo="/assets/images/splitty-boi/initial-schematic.png" />
 </a>
 
@@ -39,7 +39,7 @@ Then began the fun of routing the traces on the PCB.
 
 ### Rev 0.4
 
-<a href="/assets/images/splitty-boi/pcb-rev04.png">
+<a class="clickable-image" href="/assets/images/splitty-boi/pcb-rev04.png">
     <img src="/assets/images/blank.png" alt="Splitty boi PCB revision 0.4" data-echo="/assets/images/splitty-boi/pcb-rev04.png" />
 </a>
 
@@ -55,13 +55,13 @@ I made a quick note to change the silkscreen for the hotswap sockets and I kept 
 
 I wasn't entirely satisfied with the columnar stagger and the thumb key placement, especially the two outer keys which matched the stagger of the columns. I plotted the key placements and started taking measurements for where I felt everything should be.
 
-<a href="/assets/images/splitty-boi/thumb-placement.gif">
+<a class="clickable-image" href="/assets/images/splitty-boi/thumb-placement.gif">
     <img src="/assets/images/blank.png" alt="Splitty boi thumb arc placement" data-echo="/assets/images/splitty-boi/thumb-placement.gif" style="max-width: 400px" />
 </a>
 
 The result of my experimentation here was that I moved the thumb cluster down and inward toward the hand, allowing the thumb and fingers to remain relaxed while on the home row. I also adjusted the staggers, bringing the pinky columns further down as well as moving the extra key below the Pro Micro down to be hit by the thumb instead of the index.
 
-<a href="/assets/images/splitty-boi/pcb-thumb-rev06.png">
+<a class="clickable-image" href="/assets/images/splitty-boi/pcb-thumb-rev06.png">
     <img src="/assets/images/blank.png" alt="Splitty boi thumb cluster of revision 0.6" data-echo="/assets/images/splitty-boi/pcb-thumb-rev06.png" />
 </a>
 
@@ -71,7 +71,7 @@ Also on the list, was removing the number row. I had decided by this point that 
 
 ### Rev 1.0
 
-<a href="/assets/images/splitty-boi/pcb-final-render.png">
+<a class="clickable-image" href="/assets/images/splitty-boi/pcb-final-render.png">
     <img src="/assets/images/blank.png" alt="Splitty boi final pcb render" data-echo="/assets/images/splitty-boi/pcb-final-render.png" />
 </a>
 
@@ -87,6 +87,6 @@ The final revision incorporates the changes mentioned above as well as a couple 
 
 I had the PCBs manufactured by JLCPCB, the top and bottom plates laser cut by Ponoko and ordered the components from Aliexpress and Digikey. A full build guide will be made available upon completion of this build.
 
-<a href="/assets/images/splitty-boi/pcb-manufactured.jpg">
+<a class="clickable-image" href="/assets/images/splitty-boi/pcb-manufactured.jpg">
     <img src="/assets/images/blank.png" alt="Splitty boi manufacture pcb and acrylic top plate" data-echo="/assets/images/splitty-boi/pcb-manufactured.jpg" />
 </a>
