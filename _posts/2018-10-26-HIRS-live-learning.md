@@ -16,9 +16,9 @@ This project allows the researchers to create digital activity sheets, and allow
 
 ## Activity Creator
 
-<a class="clickable-image" href="/assets/images/hirs-live-learning/activity-creator.png">
+<div class="clickable-image"><a href="/assets/images/hirs-live-learning/activity-creator.png">
     <img src="/assets/images/blank.png" alt="HIRS Live Learning App - Activity Creator" data-echo="/assets/images/hirs-live-learning/activity-creator.png" />
-</a>
+</a></div>
 
 This part of the project was a portable program which ran on the island's desktop computers and allowed the staff to create the activity sheets. It features a simple user interface where elements are added to the sheet with the click of a button and then rearranged by dragging and dropping. This eliminates the need for the researcher to spend time layout out and typesetting the activity sheet. The activity sheets are made up of any number of input elements, defining the input required from the students.
 

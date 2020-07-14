@@ -31,17 +31,17 @@ I decided to test it by removing the number row from my current keyboard and [pu
 
 The first step was to set up the schematic. Using the Lily58 as a starting point, I added an extra switch to the bottom row of the matrix as an extra thumb key and I added the LED matrix. 
 
-<a class="clickable-image" href="/assets/images/splitty-boi/initial-schematic.png">
+<div class="clickable-image"><a href="/assets/images/splitty-boi/initial-schematic.png">
     <img src="/assets/images/blank.png" alt="Splitty boi initial schematic" data-echo="/assets/images/splitty-boi/initial-schematic.png" />
-</a>
+</a></div>
 
 Then began the fun of routing the traces on the PCB.
 
 ### Rev 0.4
 
-<a class="clickable-image" href="/assets/images/splitty-boi/pcb-rev04.png">
+<div class="clickable-image"><a href="/assets/images/splitty-boi/pcb-rev04.png">
     <img src="/assets/images/blank.png" alt="Splitty boi PCB revision 0.4" data-echo="/assets/images/splitty-boi/pcb-rev04.png" />
-</a>
+</a></div>
 
 This is a 3D render of the first completed revision of the splitty boi pcb. Comparing it to the Lily58 Pro, I had:
  - added the per key backlighting.
@@ -55,15 +55,15 @@ I made a quick note to change the silkscreen for the hotswap sockets and I kept 
 
 I wasn't entirely satisfied with the columnar stagger and the thumb key placement, especially the two outer keys which matched the stagger of the columns. I plotted the key placements and started taking measurements for where I felt everything should be.
 
-<a class="clickable-image" href="/assets/images/splitty-boi/thumb-placement.gif" style="max-width: 400px">
+<div class="clickable-image"><a href="/assets/images/splitty-boi/thumb-placement.gif" style="max-width: 400px">
     <img src="/assets/images/blank.png" alt="Splitty boi thumb arc placement" data-echo="/assets/images/splitty-boi/thumb-placement.gif" />
-</a>
+</a></div>
 
 The result of my experimentation here was that I moved the thumb cluster down and inward toward the hand, allowing the thumb and fingers to remain relaxed while on the home row. I also adjusted the staggers, bringing the pinky columns further down as well as moving the extra key below the Pro Micro down to be hit by the thumb instead of the index.
 
-<a class="clickable-image" href="/assets/images/splitty-boi/pcb-thumb-rev06.png">
+<div class="clickable-image"><a href="/assets/images/splitty-boi/pcb-thumb-rev06.png">
     <img src="/assets/images/blank.png" alt="Splitty boi thumb cluster of revision 0.6" data-echo="/assets/images/splitty-boi/pcb-thumb-rev06.png" />
-</a>
+</a></div>
 
 At this point I was happy with the stagger of each column but I hadn't yet added the underglow that I wanted, nor had I adjusted for the larger OLED. I also felt like the inner most thumb key was slightly too far away (you can see my hand flatten as I stretch to reach it in the gif above).
 
@@ -71,9 +71,9 @@ Also on the list, was removing the number row. I had decided by this point that 
 
 ### Rev 1.0
 
-<a class="clickable-image" href="/assets/images/splitty-boi/pcb-final-render.png">
+<div class="clickable-image"><a href="/assets/images/splitty-boi/pcb-final-render.png">
     <img src="/assets/images/blank.png" alt="Splitty boi final pcb render" data-echo="/assets/images/splitty-boi/pcb-final-render.png" />
-</a>
+</a></div>
 
 The final revision incorporates the changes mentioned above as well as a couple others.
 
@@ -87,6 +87,6 @@ The final revision incorporates the changes mentioned above as well as a couple 
 
 I had the PCBs manufactured by JLCPCB, the top and bottom plates laser cut by Ponoko and ordered the components from Aliexpress and Digikey. A full build guide will be made available upon completion of this build.
 
-<a class="clickable-image" href="/assets/images/splitty-boi/pcb-manufactured.jpg">
+<div class="clickable-image"><a href="/assets/images/splitty-boi/pcb-manufactured.jpg">
     <img src="/assets/images/blank.png" alt="Splitty boi manufacture pcb and acrylic top plate" data-echo="/assets/images/splitty-boi/pcb-manufactured.jpg" />
-</a>
+</a></div>

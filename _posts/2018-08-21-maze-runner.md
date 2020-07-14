@@ -33,33 +33,33 @@ These solver's don't have any information about where the goal is.
 
 #### Breadth First Search (BFS)
 
-<a class="clickable-image" href="/assets/images/maze-runner/bfs.gif" style="max-width: 500px">
+<div class="clickable-image"><a href="/assets/images/maze-runner/bfs.gif" style="max-width: 500px">
     <img src="/assets/images/blank.png" alt="Maze Runner - Breadth First Search" data-echo="/assets/images/maze-runner/bfs.gif" />
-</a>
+</a></div>
 
 Breadth first search will explore all cells at a given depth before moving on to cells which are further away. This means all branches are explored equally and is done by adding cells to a queue as they're discovered.
 
 #### Depth First Search (DFS)
 
-<a class="clickable-image" href="/assets/images/maze-runner/dfs.gif" style="max-width: 500px">
+<div class="clickable-image"><a href="/assets/images/maze-runner/dfs.gif" style="max-width: 500px">
     <img src="/assets/images/blank.png" alt="Maze Runner - Depth First Search" data-echo="/assets/images/maze-runner/dfs.gif" />
-</a>
+</a></div>
 
 Depth first search operates similarly to BFS except uses a stack instead of a queue. This means that the latest added cell is visited first and thus will continue down one branch until it ends before backtracking to check elsewhere.
 
 #### Random Sample Search
 
-<a class="clickable-image" href="/assets/images/maze-runner/random.gif" style="max-width: 500px">
+<div class="clickable-image"><a href="/assets/images/maze-runner/random.gif" style="max-width: 500px">
     <img src="/assets/images/blank.png" alt="Maze Runner - Random Sample Search" data-echo="/assets/images/maze-runner/random.gif" />
-</a>
+</a></div>
 
 A random sample search is performed by randomly placing many points on the search space (this number is configurable in `util/Config.py`) and using these points to construct a graph. Maze runner constructs and adjacency matrix, linking each point with all other reachable points within a certain distance. A point is considered reachable if a straight line path between the two points does not intersect a cell wall. This graph is then searched using `Dijkstra's algorithm` to find the shortest path between the start and end cells. 
 
 ### Bi-directional Uninformed Search
 
-<a class="clickable-image" href="/assets/images/maze-runner/bi-bfs.gif" style="max-width: 500px">
+<div class="clickable-image"><a href="/assets/images/maze-runner/bi-bfs.gif" style="max-width: 500px">
     <img src="/assets/images/blank.png" alt="Maze Runner - Bi Directional Breadth First Search" data-echo="/assets/images/maze-runner/bi-bfs.gif" />
-</a>
+</a></div>
 
 These searches operate the same way as the uninformed searches above except that they start from both the start and end cells.
 
@@ -71,17 +71,17 @@ Informed searches have information about how far away the goal is which allows t
 
 #### Greedy Best First Search
 
-<a class="clickable-image" href="/assets/images/maze-runner/greedy.gif" style="max-width: 500px">
+<div class="clickable-image"><a href="/assets/images/maze-runner/greedy.gif" style="max-width: 500px">
     <img src="/assets/images/blank.png" alt="Maze Runner - Greedy Best First Search" data-echo="/assets/images/maze-runner/greedy.gif" />
-</a>
+</a></div>
 
 Greedy best first search is true to its name, always choosing to visit the neighbouring cell which is the closest to the goal. The distance used to compare is the [manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry) from the cell to the goal.
 
 #### A* Search
 
-<a class="clickable-image" href="/assets/images/maze-runner/astar.gif" style="max-width: 500px">
+<div class="clickable-image"><a href="/assets/images/maze-runner/astar.gif" style="max-width: 500px">
     <img src="/assets/images/blank.png" alt="Maze Runner - A* Search" data-echo="/assets/images/maze-runner/astar.gif" />
-</a>
+</a></div>
 
 A* operates similarly to greedy, except it also takes into account the distance travelled to reach a cell.  
 

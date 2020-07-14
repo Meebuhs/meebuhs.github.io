@@ -18,17 +18,17 @@ mathjax: true
 
 ## The Problem
 
-<a class="clickable-image" href="/assets/images/disco-zoo-solver/game-screenshot.jpg">
+<div class="clickable-image"><a href="/assets/images/disco-zoo-solver/game-screenshot.jpg">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - game screenshot" data-echo="/assets/images/disco-zoo-solver/game-screenshot.jpg" />
-</a>
+</a></div>
 
 The game board is a 5x5 grid of tiles hiding 1-3 animals behind them. The player is allowed to uncover a set number of tiles and if all of an animal's tiles are uncovered, it is rescued and given residence in the zoo. Each animal has a set pattern and so you must use the uncovered spaces and their contents to deduce where the animals will be.
 
 ## The Solution
 
-<a class="clickable-image" href="/assets/images/disco-zoo-solver/candidates.png" style="max-width: 400px">
+<div class="clickable-image"><a href="/assets/images/disco-zoo-solver/candidates.png" style="max-width: 400px">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - candidate generation" data-echo="/assets/images/disco-zoo-solver/candidates.png" />
-</a>
+</a></div>
 
 First, the board is defined as an array of `cells` where the top left cell is `(0 0)`. The pattern of tiles that are occupied by an animal is stored as an array of offsets from the top left corner of its bounding box. In the above example, animal 1 would have a pattern of `(0 0)`, `(1 0)`, `(1 1)` and `(2 1)`. This pattern can then be combined with its location to specify the tiles occupied by a `candidate`. For example, the candidate for animal 2 would have a `position` of `(2 1)` `(4 1)` and `(3 2)`.
 
@@ -43,9 +43,9 @@ When the user inputs the contents of a cell, the solver is able to finalise it a
 
 If the contents of a cell are known to be empty, then no animal's candidates can occupy that cell. Similarly, if a cell is known to contain an animal, then no other animal's candidate can occupy that cell.
 
-<a class="clickable-image" href="/assets/images/disco-zoo-solver/occupied-cell.png" style="max-width: 400px">
+<div class="clickable-image"><a href="/assets/images/disco-zoo-solver/occupied-cell.png" style="max-width: 400px">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - occupied cell" data-echo="/assets/images/disco-zoo-solver/occupied-cell.png" />
-</a>
+</a></div>
 
  If cell `(2 1)` is known to contain animal 2, then the two shown candidates for animal 1 are not possible.
 
@@ -53,9 +53,9 @@ If the contents of a cell are known to be empty, then no animal's candidates can
 
 If a cell is occupied by all possible candidates for an animal, then that cell must be occupied by that animal.
 
-<a class="clickable-image" href="/assets/images/disco-zoo-solver/known-cell.png" style="max-width: 400px">
+<div class="clickable-image"><a href="/assets/images/disco-zoo-solver/known-cell.png" style="max-width: 400px">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - known cell" data-echo="/assets/images/disco-zoo-solver/known-cell.png" />
-</a>
+</a></div>
 
 If animal 2 only had three remaining candidates and they all contained cell `(2 3)`, then that cell must contain animal 2. 
 
@@ -63,9 +63,9 @@ If animal 2 only had three remaining candidates and they all contained cell `(2 
 
 If there is only one remaining candidate for an animal, then it must occupy those tiles.
 
-<a class="clickable-image" href="/assets/images/disco-zoo-solver/known-candidate.png" style="max-width: 400px">
+<div class="clickable-image"><a href="/assets/images/disco-zoo-solver/known-candidate.png" style="max-width: 400px">
     <img src="/assets/images/blank.png" alt="Disco zoo solver - known candidate" data-echo="/assets/images/disco-zoo-solver/known-candidate.png" />
-</a>
+</a></div>
 
 Animal 1 only has one candidate, therefore cells `(1 2)` `(2 2)` `(2 3)` and `(3 3)` are known to contain animal 1. It is then the case that animal 2 only has one candidate and must contain cells `(2 0)` `(4 0)` and `(3 1)`.
 
