@@ -2,7 +2,6 @@
 layout: post
 title: HIRS Live Learning
 description: A digital alternative to paper activity sheets for use by school groups visiting UQ's Heron Island Research Station.
-category: completed
 permalink: /projects/hirs-live-learning
 images:
     cover: /assets/images/hirs-live-learning/cover.jpg

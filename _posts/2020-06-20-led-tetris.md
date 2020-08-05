@@ -2,7 +2,6 @@
 layout: post
 title: LED Tetris
 description: A self-playing tetris AI displayed on an array of LED matrices.
-category: completed
 permalink: /projects/led-tetris
 urls:
     source: https://github.com/meebuhs/led-tetris

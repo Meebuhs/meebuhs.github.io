@@ -2,7 +2,6 @@
 layout: post
 title: Maze Runner
 description: An environment which enables the exploration of path-finding algorithms.
-category: completed
 permalink: /projects/maze-runner
 urls:
     source: https://github.com/meebuhs/maze-runner

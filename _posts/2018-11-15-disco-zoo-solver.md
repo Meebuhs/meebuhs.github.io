@@ -2,7 +2,6 @@
 layout: post
 title: Disco Zoo Solver
 description: A solver for NimbleBit's mobile game Disco Zoo.
-category: completed
 permalink: /projects/disco-zoo-solver
 urls:
     source: https://github.com/meebuhs/disco-zoo-solver
