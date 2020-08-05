@@ -85,8 +85,8 @@ The final revision incorporates the changes mentioned above as well as a couple 
 
 ## Assembly
 
-I had the PCBs manufactured by JLCPCB, the top and bottom plates laser cut by Ponoko and ordered the components from Aliexpress and Digikey. A full build guide will be made available upon completion of this build.
+I had the PCBs manufactured by JLCPCB, the top and bottom plates laser cut by Ponoko and ordered the components from Aliexpress and Digikey. I am still waiting on the LEDs however I will post a full build guide once I have them installed.
 
-<div class="clickable-image"><a href="/assets/images/splitty-boi/pcb-manufactured.jpg">
-    <img src="/assets/images/blank.png" alt="Splitty boi manufacture pcb and acrylic top plate" data-echo="/assets/images/splitty-boi/pcb-manufactured.jpg" />
+<div class="clickable-image"><a href="/assets/images/splitty-boi/splitty-boi.jpg">
+    <img src="/assets/images/blank.png" alt="Current state of splitty boi - complete except for LEDs" data-echo="/assets/images/splitty-boi/splitty-boi.jpg" />
 </a></div>
