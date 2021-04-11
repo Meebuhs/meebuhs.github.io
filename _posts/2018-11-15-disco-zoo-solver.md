@@ -29,7 +29,7 @@ The game board is a 5x5 grid of tiles hiding 1-3 animals behind them. The player
     <img src="/assets/images/blank.png" alt="Disco zoo solver - candidate generation" data-echo="/assets/images/disco-zoo-solver/candidates.png" />
 </a></div>
 
-First, the board is defined as an array of `cells` where the top left cell is `(0 0)`. The pattern of tiles that are occupied by an animal is stored as an array of offsets from the top left corner of its bounding box. In the above example, animal 1 would have a pattern of `(0 0)`, `(1 0)`, `(1 1)` and `(2 1)`. This pattern can then be combined with its location to specify the tiles occupied by a `candidate`. For example, the candidate for animal 2 would have a `position` of `(2 1)` `(4 1)` and `(3 2)`.
+First, the board is defined as an array of `cells` where the top left cell is `(0 0)`. The pattern of tiles that are occupied by an animal is stored as an array of offsets from the top left corner of its bounding box. In the above example, animal 1 would have a pattern of `(1 2)`, `(2 2)`, `(2 3)` and `(3 3)`. This pattern can then be combined with its location to specify the tiles occupied by a `candidate`. For example, the candidate for animal 2 would have a `position` of `(2 1)` `(4 1)` and `(3 2)`.
 
 For each animal selected in a game, the solver first generates a set of all possible candidates by ensuring that its bounding box would fit within the game board. For example, the pattern of animal 1 has a `width` of 3 and a `height` of 2. Thus there exists a candidate in each 
 $$ \text{cell } c_{x, y} \in \{c_{x, y} | 0 \leq x \leq 2, 0 \leq y \leq 3\} $$. 
